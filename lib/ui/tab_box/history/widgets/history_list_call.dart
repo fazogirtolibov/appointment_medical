@@ -40,7 +40,7 @@ class CallHistoryList extends StatelessWidget {
                 ),
                 image: DecorationImage(
                   image: NetworkImage(appointmentModel.doctorImage),
-                  fit: BoxFit.contain,
+                  fit: BoxFit.cover,
                 ),
               ),
               width: 100.w,

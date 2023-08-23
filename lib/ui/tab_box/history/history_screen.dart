@@ -45,9 +45,9 @@ class _HistoryPageState extends State<HistoryPage> {
               backgroundColor: MyColors.white,
               appBar: AppbarByLogo(
                 logo: AppIcons.logo,
-                title: 'History'.tr(),
+                title: 'history'.tr(),
                 onAddTap: () {
-                  Navigator.pushNamed(context, doctorsSearchRoute);
+                  Navigator.pushNamed(context, topDoctorsRoute);
                 },
                 rightLogo: ImageIcons.controlPoint,
               ),
@@ -97,6 +97,7 @@ class _HistoryPageState extends State<HistoryPage> {
                                     ),
                                     textAlign: TextAlign.center,
                                   ),
+
                                 ),
                               ),
                             ),

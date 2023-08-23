@@ -33,7 +33,7 @@ class MessagesHistoryDoctor extends StatelessWidget {
                 ),
                 image: const DecorationImage(
                   image: NetworkImage("https://i.pravatar.cc/250"),
-                  fit: BoxFit.contain,
+                  fit: BoxFit.cover,
                 ),
               ),
               width: 90.w,

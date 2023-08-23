@@ -25,7 +25,7 @@ class CallHistoryDetailScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(height: 18.h),
-            CallHistoryDoctor(),
+            const CallHistoryDoctor(),
             SizedBox(height: 24.h),
             const Divider(thickness: 1),
             SizedBox(height: 24.h),

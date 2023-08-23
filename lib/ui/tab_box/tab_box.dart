@@ -1,10 +1,11 @@
 import 'package:doctor_app/cubits/tab/tab_cubit.dart';
 import 'package:doctor_app/ui/tab_box/appointment/appointment_screen.dart';
-import 'package:doctor_app/ui/tab_box/history/history_screen.dart';
 import 'package:doctor_app/ui/tab_box/home/home_screen.dart';
 import 'package:doctor_app/ui/tab_box/profile/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'history/history_screen.dart';
 
 class TabBox extends StatefulWidget {
   TabBox({Key? key}) : super(key: key);

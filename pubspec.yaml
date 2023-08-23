@@ -98,19 +98,19 @@ flutter:
     - assets/svg/specialist/
     - assets/translations/
 
-  fonts:
-    - family: SourceSansPro-Black
-      fonts:
-        - asset: assets/fonts/SourceSansPro-Black.ttf
-    - family: SourceSansPro-Bold
-      fonts:
-        - asset: assets/fonts/SourceSansPro-Bold.ttf
-    - family: SourceSansPro-Light
-      fonts:
-        - asset: assets/fonts/SourceSansPro-Light.ttf
-    - family: SourceSansPro-Regular
-      fonts:
-        - asset: assets/fonts/SourceSansPro-Regular.ttf
-    - family: SourceSansPro-Semibold
-      fonts:
-        - asset: assets/fonts/SourceSansPro-Semibold.ttf
+  # fonts:
+  #   - family: SourceSansPro-Black
+  #     fonts:
+  #       - asset: assets/fonts/SourceSansPro-Black.ttf
+  #   - family: SourceSansPro-Bold
+  #     fonts:
+  #       - asset: assets/fonts/SourceSansPro-Bold.ttf
+  #   - family: SourceSansPro-Light
+  #     fonts:
+  #       - asset: assets/fonts/SourceSansPro-Light.ttf
+  #   - family: SourceSansPro-Regular
+  #     fonts:
+  #       - asset: assets/fonts/SourceSansPro-Regular.ttf
+  #   - family: SourceSansPro-Semibold
+  #     fonts:
+  #       - asset: assets/fonts/SourceSansPro-Semibold.ttf

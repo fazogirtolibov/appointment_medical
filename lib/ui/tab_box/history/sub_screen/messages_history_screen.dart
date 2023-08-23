@@ -16,9 +16,16 @@ class MessagesHistoryDetailScreen extends StatelessWidget {
     'First, can you tell me about your illness so for',
     'This is very important so that I can help identify your disease and the solution'
   ];
-
-  List<bool> messegBool = [false, true, false, true, false, true];
-
+  
+  List<bool> messegBool = [
+   false,
+   true,
+   false,
+   true,
+   false,
+   true
+  ];
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +42,7 @@ class MessagesHistoryDetailScreen extends StatelessWidget {
           children: [
             SizedBox(height: height(context) * 0.018),
             const MessagesHistoryDoctor(),
-            Expanded(
+             Expanded(
               child: ListView.builder(
                 physics: const BouncingScrollPhysics(),
                 itemCount: wordsOne.length,
@@ -64,12 +71,11 @@ class MessagesHistoryDetailScreen extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(
           top: index == 0 ? height(context) * 0.022 : height(context) * 0.017,
-          left: isTrue ? width(context) * 0.12 : 0,
-          right: isTrue ? 0 : width(context) * 0.12),
+          left: isTrue ? width(context) * 0.12 : 0,right: isTrue?0:width(context) * 0.12),
       child: Container(
         width: width(context) * 0.74,
         decoration: BoxDecoration(
-          color: isTrue ? MyColors.primary.withOpacity(0.8) : MyColors.neutral9,
+          color: isTrue?MyColors.primary.withOpacity(0.8): MyColors.neutral9,
           borderRadius: index == 0
               ? BorderRadius.only(
                   topLeft: isTrue
